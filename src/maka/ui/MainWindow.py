@@ -5,7 +5,7 @@ from __future__ import print_function
 
 import os.path
 
-from PySide6.QtCore import Qt, QItemSelectionModel
+from PySide6.QtCore import QItemSelection, QItemSelectionModel
 from PySide6.QtWidgets import (
     QAbstractItemView, QApplication, QDialog, QFileDialog, QHBoxLayout,
     QLabel, QLineEdit, QListWidget, QMainWindow,
